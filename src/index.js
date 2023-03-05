@@ -17,7 +17,22 @@ const fetchYandexData = (token) =>
 
 window.onload = () => {
   document.getElementById("suggest").onclick = () => {
-    // TODO suggest
+    YaAuthSuggest.init({
+         client_id: '602926f3049d4b7f8648e850962df998', 
+         response_type: 'token',
+         redirect_uri: 'https://oauth-master-class-git-main-andrew48rus.vercel.app/token.html'
+      },
+      'https://oauth-master-class-git-main-andrew48rus.vercel.app/'
+   )
+  .then(({ handler }) => handler())
+      .then(async (data) => {
+        const result = await fetchYandexData(data.access_token);
+
+        authorize(result);
+
+        console.log(result, data);
+      })
+      .catch((error) => console.log("Что-то пошло не так: ", error));
   };
   document.getElementById("button").onclick = () => {
     // TODO button
