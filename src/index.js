@@ -35,12 +35,11 @@ window.onload = () => {
       .catch((error) => console.log("Что-то пошло не так: ", error));
   };
   document.getElementById("button").onclick = () => {
- {
-        parentId: "button",
-        view: "button",
-        buttonTheme: "light",
-        buttonSize: "xs",
-        buttonBorderRadius: 20,
-      }
+ view: 'button',
+         parentId: 'container',
+         buttonView: 'main',
+         buttonTheme: 'light',
+         buttonSize: 'm',
+         buttonBorderRadius: 0
   };
 };
