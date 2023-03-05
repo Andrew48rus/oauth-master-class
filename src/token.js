@@ -1,9 +1,9 @@
 YaAuthSuggest.init({
          client_id: 'c46f0c53093440c39f12eff95a9f2f93',
          response_type: 'token',
-         redirect_uri: 'https://oauth-master-class-qn0cjn08m-andrew48rus.vercel.app/token.html'
+         redirect_uri: 'https://oauth-master-class-nyc42fxnf-andrew48rus.vercel.app/token.html'
       },
-      'https://oauth-master-class-qn0cjn08m-andrew48rus.vercel.app/', {
+      'https://oauth-master-class-nyc42fxnf-andrew48rus.vercel.app/', {
          view: 'button',
          parentId: 'container',
          buttonView: 'main',
