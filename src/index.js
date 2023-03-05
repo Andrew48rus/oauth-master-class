@@ -36,7 +36,7 @@ window.onload = () => {
   };
   document.getElementById("button").onclick = () => {
  {
-        parentId: "buttonContainer",
+        parentId: "button",
         view: "button",
         buttonTheme: "light",
         buttonSize: "xs",
