@@ -35,10 +35,6 @@ window.onload = () => {
       .catch((error) => console.log("Что-то пошло не так: ", error));
   };
   document.getElementById("button").onclick = () => {
-    parentId: "button",
-        view: "button",
-        buttonTheme: "dark",
-        buttonSize: "xs",
-        buttonBorderRadius: 10,
+ 
   };
 };
