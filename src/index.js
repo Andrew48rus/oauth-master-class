@@ -35,11 +35,5 @@ window.onload = () => {
       .catch((error) => console.log("Что-то пошло не так: ", error));
   };
   document.getElementById("button").onclick = () => {
- view: 'button',
-         parentId: 'container',
-         buttonView: 'main',
-         buttonTheme: 'light',
-         buttonSize: 'm',
-         buttonBorderRadius: 0
   };
 };
