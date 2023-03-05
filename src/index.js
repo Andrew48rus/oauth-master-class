@@ -22,7 +22,14 @@ window.onload = () => {
          response_type: 'token',
          redirect_uri: 'https://oauth-master-class-git-main-andrew48rus.vercel.app/token.html'
       },
-      'https://oauth-master-class-git-main-andrew48rus.vercel.app/'
+      'https://oauth-master-class-git-main-andrew48rus.vercel.app/',
+                       {
+        parentId: "buttonContainer",
+        view: "button",
+        buttonTheme: "light",
+        buttonSize: "xs",
+        buttonBorderRadius: 20,
+      }
    )
   .then(({ handler }) => handler())
       .then(async (data) => {
