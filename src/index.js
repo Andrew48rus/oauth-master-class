@@ -35,7 +35,7 @@ window.onload = () => {
       .catch((error) => console.log("Что-то пошло не так: ", error));
   };
   document.getElementById("button").onclick = () => {
-    parentId: "buttonContainer",
+    parentId: "button",
         view: "button",
         buttonTheme: "dark",
         buttonSize: "xs",
