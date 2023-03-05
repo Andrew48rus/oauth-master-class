@@ -42,9 +42,9 @@ window.onload = () => {
       },
       'https://oauth-master-class-git-main-andrew48rus.vercel.app/',
                        {
-        parentId: "buttonContainer",
+        parentId: "button",
         view: "button",
-        buttonTheme: "light",
+        buttonTheme: "dark",
         buttonSize: "xs",
         buttonBorderRadius: 20,
       }
